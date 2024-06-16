@@ -47,4 +47,8 @@ public class CodeRabbit {
     private static void something() {
         // This method is unused
     }
+
+    private static void something1() {
+        // This method is unused
+    }
 }
