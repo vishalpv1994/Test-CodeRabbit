@@ -11,10 +11,10 @@ public class CodeRabbit {
         list.add("two");
         list.add("three");
 
-        String unusedVariable = "This variable is unused.";
+        String var = "test";
    
-        String nullString = null;
-        if (nullString.equals("test")) {
+        String str = null;
+        if (str.equals("test")) {
             System.out.println("This won't be reached.");
         }
 
@@ -40,11 +40,11 @@ public class CodeRabbit {
             // Empty catch block
         }
 
-        unusedPrivateMethod();
+        something();
 
     }
 
-    private static void unusedPrivateMethod() {
+    private static void something() {
         // This method is unused
     }
 }
