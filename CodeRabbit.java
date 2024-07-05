@@ -14,7 +14,7 @@ public class CodeRabbit {
         String var = "test";
    
         String str = null;
-        if (str.equals("test")) {
+        if (str.equals("test1")) {
             System.out.println("This won't be reached.");
         }
 
