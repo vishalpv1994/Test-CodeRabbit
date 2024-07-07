@@ -24,7 +24,6 @@ public class SonarExample {
     
     public void resourceLeak() {
         List<String> list = new ArrayList<>();
-        // Missing list.close() or using try-with-resources
     }
 
    
