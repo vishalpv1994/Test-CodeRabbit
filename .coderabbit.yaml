@@ -11,5 +11,10 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
+  path_instructions:
+    - path: "service/*.js"
+      instructions: |
+        Review the JavaScript code
+
 chat:
   auto_reply: true
